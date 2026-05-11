@@ -8,6 +8,7 @@ b = (1 - (0.001 + abs(a - b) / (a + b))) x a + abs(a - b) / (1 + abs(a - b)) + (
 
 output:
 L = l / b
+
 R = r / b
 
 
