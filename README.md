@@ -9,9 +9,9 @@ self-correcting behavior and low waveform distortion. Developed with math plugin
 
 This code runs the plugin:
 
-a = (1 - (0.004 + abs(a - b) / (a + b))) x b + (0.004 + abs(a - b) / (a + b)) x abs(Drive x (l/2 + r/2)^2) / a
+a = (1 - (Atiming + abs(a - b) / (a + b))) x b + (Atiming + abs(a - b) / (a + b)) x abs(Drive x (l/2 + r/2)^2) / a
 
-b = (1 - (0.001 + abs(a - b) / (a + b))) x a + abs(a - b) / (1 + abs(a - b)) + (0.001 + abs(a - b) / (a + b)) x b^(1 - abs(a - b) / (a + b))
+b = (1 - (Btiming + abs(a - b) / (a + b))) x a + abs(a - b) / (1 + abs(a - b)) + (Btiming + abs(a - b) / (a + b)) x b^(1 - abs(a - b) / (a + b))
 
 output:
 
