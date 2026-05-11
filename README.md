@@ -5,7 +5,7 @@ OXC-3 uses adaptive distance-based timing between two recursive states
 (a and b). As the states separate, timing accelerates automatically,
 while a bounded difference term stabilizes the gain-control behavior.
 The result is a fast but smooth dynamic leveling effect with strong
-self-correcting behavior and low waveform distortion. Developed with math plugin by Socalabs.
+self-correcting behavior and low waveform distortion. Developed with <a href="https://socalabs.com/developer-tools/maths/">math</a> plugin by Socalabs.
 
 This code runs the plugin:
 
