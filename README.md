@@ -7,8 +7,8 @@ a = (1 - (0.004 + abs(a - b) / (a + b))) x b + (0.004 + abs(a - b) / (a + b)) x 
 b = (1 - (0.001 + abs(a - b) / (a + b))) x a + abs(a - b) / (1 + abs(a - b)) + (0.001 + abs(a - b) / (a + b)) x b^(1 - abs(a - b) / (a + b))
 
 output:
-L = l / b
 
+L = l / b
 R = r / b
 
 
