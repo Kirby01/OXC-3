@@ -8,6 +8,7 @@ The result is a fast but smooth dynamic leveling effect with strong
 self-correcting behavior and low waveform distortion. Developed with math plugin by Socalabs.
 
 This code runs the plugin:
+
 a = (1 - (0.004 + abs(a - b) / (a + b))) x b + (0.004 + abs(a - b) / (a + b)) x abs(3 x (l/2 + r/2)^2) / a
 
 b = (1 - (0.001 + abs(a - b) / (a + b))) x a + abs(a - b) / (1 + abs(a - b)) + (0.001 + abs(a - b) / (a + b)) x b^(1 - abs(a - b) / (a + b))
